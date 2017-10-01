@@ -1,5 +1,5 @@
 0.0.0.0
-root /var/www/wiki
+root /var/www
 gzip
 startup php-fpm7
 
