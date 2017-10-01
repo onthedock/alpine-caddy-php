@@ -10,7 +10,7 @@ RUN chown -R caddy:caddy /var/www /var/log
 WORKDIR /var/www
 
 COPY files/Caddyfile /etc/Caddyfile
-COPY files/index.htm /var/www
+COPY files/index.html /var/www
 COPY files/info.php /var/www
 
 EXPOSE 2015
