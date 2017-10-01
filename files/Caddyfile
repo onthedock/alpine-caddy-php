@@ -4,7 +4,7 @@ gzip
 startup php-fpm7
 
 fastcgi / 127.0.0.1:9000 php {
-  index index.php index.htm doku.php
+  index index.php doku.php
 }
 
 log stdout
